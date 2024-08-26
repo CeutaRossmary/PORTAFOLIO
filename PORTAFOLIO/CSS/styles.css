@@ -1,0 +1,42 @@
+.cabecera{
+    background-color: #111;
+    width: 100% !important;
+
+}
+
+#color{
+    background-color: #2c3e50 !important;
+    width: 100%;
+}
+#jumbo{
+    background-image: url('../IMG/imagen1.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    height: 400px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#pdf{
+    color: white;
+    text-decoration: none !important;
+}
+
+
+.bi{
+    font-size: 2em !important;
+    color: white;
+    padding:15px !important;
+   margin: 5px;
+}
+
+
+#imagen{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 400px;
+}

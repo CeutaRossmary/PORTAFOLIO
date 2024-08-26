@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Portafolio</title>
+</head>
+
+<body>
+    <nav class="navbar cabecera">
+        <div class="container-fluid justify-content-center ">
+            <ul class="nav  m-lg-3  simple-list-example-scrollspy">
+                <li class="menu-item m-1 prueba"><a class="" href="#about" title="Acerca de mí"><i
+                            class="bi bi-person-fill "></i></a></li>
+                <li class="menu-item m-1"><a class="" href="#edu" title="Trabajos"><i class="bi bi-wallet-fill"></i></a>
+                </li>
+                <li class="menu-item m-1"><a class="" href="#work" title="Trabajos"><i
+                            class="bi bi-file-text-fill"></i></a></li>
+                <li class="menu-item m-1"><a class="" href="#contact" title="Contacto"><i
+                            class="bi bi-envelope"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="jumbotron jumbotron-fluid" id="jumbo">
+        <div class="container">
+            <h1 class="display-4 p-5">Ceuta Fuentes Rossmary</h1>
+            <p class="lead">Trainee JavaScript | ceutarossmary@gmail.com.</p>
+        </div>
+    </div>
+    <div id="color"> 2
+        <div class=" container  text-center ">
+            <div class=" text-white row text-center">
+                <p class="col-lg-3 p-5"> ACERCA DE MI</p>
+                <p class=" col-lg-6 p-5" id="about">
+                    Soy Analista de Recursos Humanos, he trabajado durante
+                    17 años
+                    en esta área, pero decidí dar un giro a mis metas
+                    profesionales y dedicarme a algo que siempre ha sido de
+                    mi
+                    interés como lo es el área de la programación. De hecho,
+                    tengo un título en Técnico Superior Universitario en
+                    Informática
+                    ya que es mi verdadera vocación. <br><br>
+
+                    Finalice un Bootcamps de CodinDojo Chile de 400 horas en
+                    el área
+                    de Diseño y desarrollo de páginas Web y aplicaciones
+                    Móviles, actualmente estoy realizando otra capacitación
+                    con
+                    Plataforma5 Chile de 472 horas Bootcamps Desarrollo de
+                    Aplicaciones Full Stack Javascript Trainee.
+                </p>
+                <p class="col-lg-3 p-5">
+                    <a id="pdf" class=""
+                        href="https://drive.google.com/file/d/1ATdV6nPwo7yVAzGK4uYqeXybq8-EZN3n/view?usp=sharing"
+                        title="" target="_blank"><i class="">DOWNLOAD PDF</i></a></li>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--EDUCATION DESCRIPTION -->
+    <div class=" container p-5 text-center " id="edu">
+        <div class=" row ">
+            <div class="col-lg-3 ">
+                <h5>EDUCACION</h5>
+            </div>
+            <div class="col-lg-6">
+                <p>T.S.U Informática</p>
+                <p>Instituto Universitario Tecnología Caripito </p>
+                <p> 3 Años. </p>
+            </div>
+            <div class="col-lg-3">
+                <p>
+                    <sm>COMPLETA</sm><br />
+                </p>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <!-- PORTAFOLIO-->
+        <div id="work" class="row p-5">
+            <h5>PORTAFOLIO</h5>
+            <div class="col-2">
+            </div>
+            <div class="col-8">
+                <div id="carouselExampleCaptions" class="carousel slide ">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div id="contenido" class="carousel-inner rounded border border-black">
+                        <div class="carousel-item active">
+                            <img id="imagen" src="IMG/SuperJumpan.png" class="d-block w-100" alt="...">
+                            <div id="contenido" class="carousel-caption d-none d-md-block">
+                                <h4>JUMPAN</h4>
+                                <H5>Introducción al Desarrollo de Juegos en HTML5 con Phaser y la API de Orientación a
+                                    Dispositivos.</H5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img id="imagen" src="IMG/JuegoColores.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>COLOR GAMES</h5>
+                                <h5>Juego realizado con JavaScript, HTML y CSS.</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img id="imagen" src="IMG/1942.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4>GAME 1942</h4>
+                                <h5>Juego realizado con JavaScript, HTML y CSS.</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-2">
+        </div>
+    </div>
+    </div>
+    <!--FOOTER-->
+    <div class=" cabecera" id="contact">
+        <div class="container  text-center">
+            <p class="text-white">Links Redes Profesionales<br /><br>
+                <a href="www.linkedin.com/in/rossmary-ceuta-fuentes-6b4711218"><i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/CeutaRossmary?tab=repositories" target="_blank"><i
+                        class="bi bi-github"></i></a>
+            </p>
+            <!-- Copyright -->
+            <p class="text-white text-center"> &copy; Copyrights2022 - <strong> Rossmary Ceuta Fuentes</strong></p>
+        </div>
+    </div>
+</body>
+<script src="../PORTAFOLIO/JS/funciones.js"></script>
+
+</html>
